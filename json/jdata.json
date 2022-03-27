@@ -1,0 +1,151 @@
+{
+  "ArtExhibition": {
+    "critics": {
+      "critic": [
+        {
+          "@id": "1",
+          "name": "John Ruskin",
+          "cfalification": "Expert-Analytical",
+          "countReview": "17",
+          "education": {
+            "school": {
+              "@code": "120",
+              "@country": "England",
+              "@city": "London"
+            },
+            "institute": {
+              "@code": "200",
+              "@country": "England",
+              "@city": "Oxford"
+            }
+          },
+          "information": {
+            "age": "40лет",
+            "familyStatus": "married"
+          }
+        },
+        {
+          "@id": "2",
+          "name": "Susan Sontag",
+          "cfalification": "Scientific-Research",
+          "countReview": "21",
+          "education": {
+            "school": {
+              "@code": "305",
+              "@country": "USA",
+              "@city": "New York"
+            },
+            "institute": {
+              "@code": "400",
+              "@country": "USA",
+              "@city": "Cambridge"
+            }
+          },
+          "information": {
+            "age": "36лет",
+            "familyStatus": "not married"
+          }
+        },
+        {
+          "@id": "3",
+          "name": "Jean Genet",
+          "cfalification": "Learning",
+          "countReview": "0",
+          "education": {
+            "school": {
+              "@code": "250",
+              "@country": "Germany",
+              "@city": "Bavaria"
+            },
+            "institute": {
+              "@code": "595",
+              "@country": "Great Britain",
+              "@city": "Cardiff"
+            }
+          },
+          "information": {
+            "age": "24года",
+            "familyStatus": "not married"
+          }
+        }
+      ]
+    },
+    "artists": {
+      "artist": [
+        {
+          "@queue": "1",
+          "critic": "1",
+          "name": "Sam Smith",
+          "information": {
+            "age": "29лет",
+            "familyStatus": "not married",
+            "produceTime": "25"
+          },
+          "style": "11"
+        },
+        {
+          "@queue": "2",
+          "critic": "2",
+          "name": "Amanda Petersom",
+          "information": {
+            "age": "53года",
+            "familyStatus": "married",
+            "produceTime": "56"
+          },
+          "style": "12"
+        },
+        {
+          "@queue": "3",
+          "critic": "3",
+          "name": "George Black",
+          "information": {
+            "age": "41год",
+            "familyStatus": "not married",
+            "produceTime": "47"
+          },
+          "style": "13"
+        }
+      ]
+    },
+    "styles": {
+      "style": [
+        {
+          "@id": "11",
+          "name": "Portrait",
+          "description": {
+            "drawing": "pencil",
+            "genre": "realism"
+          },
+          "tools": {
+            "place": "canvas",
+            "material": "graphite"
+          }
+        },
+        {
+          "@id": "12",
+          "name": "Landscape",
+          "description": {
+            "drawing": "watercolor",
+            "genre": "modern"
+          },
+          "tools": {
+            "place": "hardboard",
+            "material": "brush"
+          }
+        },
+        {
+          "@id": "13",
+          "name": "Still-life",
+          "description": {
+            "drawing": "oil",
+            "genre": "animalism"
+          },
+          "tools": {
+            "place": "paperboard",
+            "material": "brush"
+          }
+        }
+      ]
+    }
+  }
+}
