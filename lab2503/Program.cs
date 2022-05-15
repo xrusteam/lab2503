@@ -29,7 +29,7 @@ namespace lab2503
         }
         public static void LoadXml()
         {
-            string Path = @"C:\Users\User\source\repos\lab2503\lab2503\xdata.xml";
+            string Path = "xdata.xml";
             XmlDocument document = new XmlDocument();
             document.Load(Path);
             if (!File.Exists(Path))
