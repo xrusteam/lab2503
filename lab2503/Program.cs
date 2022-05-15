@@ -42,7 +42,7 @@ namespace lab2503
                 XmlSerializer xml = new XmlSerializer(typeof(ArtExhibition));
                 art = (ArtExhibition)xml.Deserialize(rawData);
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
 
             }
